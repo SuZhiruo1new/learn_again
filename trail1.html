@@ -40,9 +40,47 @@ always in a hurry
 <li><a href="https://www.worldanimalprotection.org.cn">推进世界动物保护</a></li>
 <li><a href="https://www.china.com.cn/aboutchina/zhuanti/ysdw/2008-12/08/content_16915955.htm"target="_blank">中国野生动物保护协会</a></li><!--此处target="_blank"可以使网站自动在新窗打开-->
 </ul>
-<video src="https://static1.bcjiaoyu.com/%E4%B8%AD%E5%8D%8E%E9%A3%8E%E5%85%89.mp4" preload="none" controls loop>视频
+<video src="https://static1.bcjiaoyu.com/%E4%B8%AD%E5%8D%8E%E9%A3%8E%E5%85%89.mp4" preload="none" controls autoplay loop>视频
 </video><!--preload的双引号中可以是none用户按下播放键之前不会加载视频 auto页面在加载时载入视频--><!--controls指需要提供默认播放控件如播放按钮-->
 <!--还有autoplay 和 loop-->
+<table>
+ <tr><th>日期</th><th>花费</th></tr>
+ <tr><td>8月1日</td><td>100</td></tr>
+</table>
+
+<table>
+ <tr><th> <!--此处空格--></th><th>星期一</th><th>星期二</th><th>星期三</th></tr>
+ <tr><th>上午</th><td>数学课</td><td>英语课</td><td>计算机课</td></tr>
+<tr><th>下午</th><td>英语课</td><td>美术课</td><td>计音乐课</td></tr>
+</table>
+
+<lable>用户名</lable><input type="text" name="username"maxlength="30"/><br/>
+<lable>密码</lable><input type="password" name="password"maxlehgth="30"/><br/>
+<lable>评价商品</lable><textarea name="comments" cols="90"rows="8">请留下你的评论</textarea><br/>
+<textarea>请说说你的想法</textarea><br/>
+
+<p>What devices do you listen to music on?</p>
+<select name="devices"><!--name和value是发送至服务器的-->
+<option value="ipod">IPod</option>
+<option value="radio">Radio</option>
+<option value="computer">Computer</option>
+</select>
+
+<p>请选择你的国籍</p>
+<select name="nationality">
+  <option value="Afgahanistan">阿富汗</option>
+  <option value="Argentina">阿根廷</option>
+  <option value="China" selected="selected">中国</option><!--默认选择-->
+  <option value="Canada">加拿大</option>
+</select>
+
+<p>请选择你最爱的食物</p>
+<input type="checkbox" name="food" value="pizza" checked="checked"/><!--此处/重要 不可忘记-->Pizza
+<input type="checkbox" name="food" value="pasta"/>Pasta
+<input type="checkbox" name="food" value="brownie"/>Brownie
+
+
+
 
 
 </body>
